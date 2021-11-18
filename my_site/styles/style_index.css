@@ -23,6 +23,29 @@ h1 {
     margin-left: 90px;
 }
 
+.linktable {
+    position: relative;
+    top: -50px;
+    right: 15px;
+    text-align: right;
+    color: white;
+    font-family: Impact;
+    font-size: 18px;
+}
+
+.link {
+    position: relative;
+    top: -55px;
+    right: 10px;
+    transform: rotate(180deg);
+    float: right;
+}
+A {
+    text-decoration: none;
+    color: black;
+}
+
+
 .logo {
     padding-left: 20px;
     padding-top: 0px;
@@ -88,7 +111,7 @@ h1 {
     width: 370px;
     height: 420px;
     border: 1px solid white;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     box-shadow: 15px 15px #000000;
     word-wrap: break-word;
 }
