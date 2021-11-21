@@ -184,7 +184,7 @@ A:hover {
     text-align: right;
     color: white;
     font-family: Impact;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .link {
@@ -193,8 +193,8 @@ A:hover {
     right: 10px;
     transform: rotate(180deg);
     float: right;
-}
 
+}
 
 
 
