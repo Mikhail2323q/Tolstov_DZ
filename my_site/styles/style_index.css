@@ -201,62 +201,63 @@ A {
 .content_3 {
     display: grid;
     margin: 40px;
+    margin-top: 100px;
     padding: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     grid-template-rows: 600px 600px;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 70px;
     grid-template-areas:
             'up up2'
             'down down2';
 }
 
 .one_gr {
-    display: grid;
-    background-color: #aea4e3;
     grid-area: up;
-}
-.one_gr_1 {
-    height: 300px;
-    width: 760px;
-    background-color: #eaea77;
+    padding: 10px;
+
 
 }
+.one_gr_1 {
+    margin-bottom: 0px;
+
+}
+
 .one_gr_2 {
-    background-color: #7409c7;
-    height: 300px;
-    width: 760px;
+    margin-right: 100px;
+    background-color: #ffffff;
+    color: white;
+    width: 530px;
+    height: 70px;
+    margin-left: 100px;
+    padding-top: 1px;
+    margin-top: 15px;
 
 }
 
 .flow1 {
-    width: 350px;
-    height: 300px;
-    padding-left: 210px;
+    width: 530px;
+    height: 500px;
+    padding-left: 100px;
     padding-top: 5px;
 }
 
 .flow_text {
-    width: 200px;
-    height: 100px;
-    background-color: black;
     text-align: center;
-    color: white;
+    color: #000000;
+    font-size: 24px;
 
 }
 
 .two_gr {
-    background-color: #eaea77;
     grid-area: up2;
 }
 
 .three_gr {
-    background-color: #d3ffe8;
     grid-area: down;
 }
 
 .four_gr {
-    background-color: #7409c7;
     grid-area: down2;
 }
