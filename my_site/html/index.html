@@ -1,156 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Main</title>
-    <link rel="stylesheet" href="../styles/style_index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/style_index.css">
 </head>
 <body>
-<header>
-    <div class="logo">
-        <img src="../images/i.png" height="60px" width="60px"/>
+<header id="Header">
+    <div class="adaptive">
+        <h1>МОЙ САЙТ</h1>
+        <div class="logo">
+            <img  src="../images/i.png" height="65px" width="65px"/>
+        </div>
     </div>
-    <h1>МОЙ САЙТ</h1>
-    <div class="link">
-        <a href="table.html">
-            <p class="linktable">Таблица Менделеева</p>
-            <div class="arrow">
-                <img src="../images/arrow.png" height="60px" width="120px"/>
-            </div>
-        </a>
-    </div>
-
-
+          <a href="table.html">
+                <h2 class="linktable">Таблица Менделеева</h2>
+          </a>
 </header>
-
-<section class="content">
-    <div class="block1">
+<main id="main">
+    <section class="grid">
         <div class="ava">
             <img class="ava_style" src="../images/ava.jpg"/>
         </div>
-    </div>
-    <div class="block2">
         <div class="name">
-            <div class="name1">
-                <h2 class="name_style">Михаил Толстов</h2>
-            </div>
+            <h2 class="name_style">Михаил Толстов</h2>
         </div>
         <div class="about">
-            <div class="about1">
-                <p class="about_style"><b>Немного о себе:</b>
-                    <br><br>
-                    Мне 22 года. Я учился в МГТУ им. Носова, получил экномическую специальность.
-                    Работал на стройке, в банке. Мое любиоме хобби это прогулки на велосипеде, просмотр всяких фильмов,
-                    иногда люблю приготовить какое-нибудь оригинальное блюдо. Хочу научиться хорошо верстать.
-                </p>
-            </div>
+            <p class="about_style"><b>Немного о себе:</b>
+                <br><br>
+                Мне 22 года. Я учился в МГТУ им. Носова, получил экномическую специальность.
+                Работал на стройке, в банке. Мое любиоме хобби это прогулки на велосипеде, просмотр всяких фильмов,
+                иногда люблю приготовить какое-нибудь оригинальное блюдо. Хочу научиться хорошо верстать.
+            </p>
         </div>
         <div class="study">
-            <div class="study1">
-                <p class="study_style">
-                    Занятия мне нравятся. Много всего нового и интересного. Где-то бывает не успеваю.
-                    Но как правило, если что-то не успел, пересматриваю в лекциях.
-                    Наверное, мне пока что нечего будет предложить, так как меня пока что
-                    все устраивает.
-                </p>
-            </div>
+            <p class="study_style">
+                Занятия мне нравятся. Много всего нового и интересного. Где-то бывает не успеваю.
+                Но как правило, если что-то не успел, пересматриваю в лекциях.
+                Наверное, мне пока что нечего будет предложить, так как меня пока что
+                все устраивает.
+            </p></div>
+    </section>
+    <p class="title1">Цветы</p>
+    <section class="flexbox">
+        <div class="box1">
+            <img class="flow1" src="../images/flow1.png">
+            <p class="flow_text">
+                Африканские маргаритки
+            </p>
         </div>
-    </div>
-</section>
-
-<section class="content_2">
-    <! -- первый блок через flex, второй через grid -->
-    <div class="box1">
-        <div class="img1">
+        <div class="box1">
+            <img class="flow1" src="../images/flow2.jpg">
+            <p class="flow_text">
+                Бегония
+            </p>
+        </div>
+        <div class="box1">
+            <img class="flow1" src="../images/flow3.png">
+            <p class="flow_text">
+                Белый лотос
+            </p>
+        </div>
+        <div class="box1">
+            <img class="flow1" src="../images/flow4.jpg">
+            <p class="flow_text">
+                Бругмансия
+            </p>
+        </div>
+    </section>
+    <p class="title1">Коты</p>
+    <section class="grid_cat">
+        <div class="box2">
             <img class="cat1" src="../images/cat1.png">
-        </div>
-        <div class="text1">
             <p class="cat1_text">
-                Мeйн-кун — одна из самых крупных пород домашних кошек. Их слабый, тихий голос кажется удивительным для таких внушительных размеров.
+                Мeйн-кун — одна из самых крупных пород домашних кошек.
+                Их слабый, тихий голос кажется удивительным для таких внушительных размеров.
             </p>
         </div>
-    </div>
-
-    <div class="box1">
-        <div class="img1">
+        <div class="box3">
             <img class="cat1" src="../images/cat2.jpg">
-        </div>
-        <div class="text1">
             <p class="cat1_text">
-                Кимрики — очень спокойные кошки с высоким социальным интеллектом. Они ориентированы на человека и искренне привязываются к членам своей семьи.
+                Кимрики — очень спокойные кошки с высоким социальным интеллектом.
+                Они ориентированы на человека и искренне привязываются к членам своей семьи.
             </p>
         </div>
-    </div>
-
-    <div class="box1">
-        <div class="img1">
+        <div class="box4">
             <img class="cat1" src="../images/cat3.jpg">
-        </div>
-        <div class="text1">
             <p class="cat1_text">
                 Сибирские кошки — это живые, умные, ласковые и невероятно игривые животные, которые любят участвовать в делах семьи.
                 Они хорошо уживаются с другими кошками, собаками, детьми и нуждаются во внимании членов семьи.
             </p>
         </div>
-    </div>
-
-    <div class="box1">
-        <div class="img1">
+        <div class="box5">
             <img class="cat1" src="../images/cat4.jpg">
-        </div>
-        <div class="text1">
             <p class="cat1_text">
                 Британские длинношерстные кошки очень общительны и любят находиться рядом с людьми, особенно со своими владельцами.
                 Они с удовольствием играют в одиночестве и найдут, чем себя занять в отсутствие владельца.
             </p>
         </div>
-    </div>
-
-</section>
-
-<section class="content_3">
-    <div class="one_gr">
-        <div class="one_gr_1">
-            <img class="flow1" src="../images/flow1.png">
-        </div>
-            <div class="one_gr_2">
-            <p class="flow_text">
-                Африканские маргаритки
-            </p>
-            </div>
-    </div>
-    <div class="two_gr">
-        <div class="one_gr_1">
-            <img class="flow1" src="../images/flow2.jpg">
-        </div>
-        <div class="one_gr_2">
-            <p class="flow_text">
-                Бегония
-            </p>
-        </div>
-    </div>
-    <div class="three_gr">
-        <div class="one_gr_1">
-            <img class="flow1" src="../images/flow3.png">
-        </div>
-        <div class="one_gr_2">
-            <p class="flow_text">
-                Белый лотос
-            </p>
-        </div>
-    </div>
-    <div class="four_gr">
-        <div class="one_gr_1">
-            <img class="flow1" src="../images/flow4.jpg">
-        </div>
-        <div class="one_gr_2">
-            <p class="flow_text">
-                Бругмансия
-            </p>
-        </div>
-    </div>
-</section>
+    </section>
 </main>
-
+<footer id="Footer">
+    <a href="https://t.me/dark6night6" title="telegram">
+        <img class="teleg" src="../images/nn.png"/>
+    </a>
+    <a href="https://github.com/Mikhail2323q" title="github">
+        <img class="git" src="../images/git.png"/>
+    </a>
+</footer>
 </body>
 </html>

@@ -122,7 +122,7 @@ h1 {
     font-size: 24px;
     padding: 25px;
     text-align: left;
-}
+ }
 .study {
     grid-area: study;
     width: 370px;
@@ -247,11 +247,6 @@ A {
     text-decoration: none;
     color: black;
 }
-.links {
-    float: right;
-    margin-top: -40px;
-
-}
 
 
 @media screen and (min-width: 400px) and (max-width: 800px) {
@@ -264,11 +259,11 @@ A {
     "about study";
     }
 
-    .adaptive {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+   .adaptive {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
     .about {
         margin: 0 auto;
         margin-top: -300px;
@@ -476,15 +471,12 @@ A {
     .cat1_text {
         font-size: 22px;
     }
-    .linktable {
-
-        margin-top: -40px;
-        padding-right: 10px;
-        text-align: center;
-        float: right;
-        color: white;
-        font-family: Impact;
-        font-size: 9px;
-    }
 
 }
+
+
+
+
+
+
+
